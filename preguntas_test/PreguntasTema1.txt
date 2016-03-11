@@ -1,0 +1,17 @@
+<pregunta>
+<enunciado>Seleccione la incorrecta. Una granja web</enunciado>
+<opcionA>Son sistemas muy complejos, pero sumamente flexibles y funcionales</opcionA>
+<opcionB>Albergará un par de sitios web</opcionB>
+<opcionC>Es un conjunto de servidores dedicados a servir</opcionC>
+<opcionD>Todas son correctas</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Cuál es la opción más rápida y barata a la hora de desarrollar un sitio web?</enunciado>
+<opcionA>Montar un cold spare server</opcionA>
+<opcionB>Montarlo con dos máquinas</opcionB>
+<opcionC>Montarlo todo en una máquina</opcionC>
+<opcionD>Configurar varias máquinas, dedicando una a cada servicio</opcionD>
+<solucion>C</solucion>
+</pregunta>

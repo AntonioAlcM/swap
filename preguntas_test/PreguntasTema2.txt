@@ -1,0 +1,17 @@
+<pregunta>
+<enunciado>¿Con que disponibilidad se conforman los sitios web?</enunciado>
+<opcionA>99.95</opcionA>
+<opcionB>99.9</opcionB>
+<opcionC>99.99</opcionC>
+<opcionD>B y C son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Cuál no es un algoritmo, usado para decidir que máquina final servirá cada petición?</enunciado>
+<opcionA>Por tiempo de espera</opcionA>
+<opcionB>por ponderación</opcionB>
+<opcionC>Por prioridad</opcionC>
+<opcionD>Por turnos</opcionD>
+<solucion>A</solucion>
+</pregunta>
