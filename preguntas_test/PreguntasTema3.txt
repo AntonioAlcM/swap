@@ -1,0 +1,32 @@
+<pregunta>
+
+<enunciado>¿Cuál no es un tipo de DMZ?</enunciado>
+
+<opcionA>DMZ simple</opcionA>
+
+<opcionB>DMZ complejo</opcionB>
+
+<opcionC>DMZ doble</opcionC>
+
+<opcionD>DMZ tradicional</opcionD>
+
+<solucion>B</solucion>
+
+</pregunta>
+
+
+<pregunta>
+
+<enunciado>¿Cuál no es un problema en el DMZ simple?</enunciado>
+
+<opcionA>Los servidores están conectados directamente a internet</opcionA>
+
+<opcionB>El cortafuegos puede ser un cuello de botella</opcionB>
+
+<opcionC>Los servidores y máquinas tras el cortafuegos aún comparten ancho de banda</opcionC>
+
+<opcionD>Los servidores que usa la granja web están tras el cortafuegos</opcionD>
+
+<solucion>D</solucion>
+
+</pregunta>
