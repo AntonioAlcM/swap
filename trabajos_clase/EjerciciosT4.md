@@ -108,11 +108,11 @@ implementa
 
  > Una vez instalado el ZenLoadBalancer entramos a la máquina desde el navegador 
 introduciendo https://ip:444, una vez en la página principal accedemos a manage 
-y pinchamos en Farms, alli aparecerá un recuadro que pone Configure a new Farm 
+y pinchamos en Farms, allí aparecerá un recuadro que pone Configure a new Farm 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio4.4.1.png)
  > Una vez que le damos a save&continue aparecerá la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//Ejercicio4.4.2.png) 
-introducimos la dirección virtual de nuestro servidor y el puerto que queramos que use, le damos a save y aparecerá la d¡siguiente página 
+introducimos la dirección virtual de nuestro servidor y el puerto que queramos que use, le damos a save y aparecerá la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//Ejercicio4.4.3.png),
 seleccionamos el botón edit de nuestra granja, y pasaremos a la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio4.4.4.png)
@@ -129,7 +129,7 @@ qué?**
 **Buscar información sobre los bloques de IP para los distintos países o 
 continentes.**
 
- > En esta enlace [enlace](http://www.nirsoft.net/countryip/) podemos ver los bloques de ip según cada país del mundo.  
+ > En este [enlace](http://www.nirsoft.net/countryip/) podemos ver los bloques de ip según cada país del mundo.  
 
 #**Ejercicio T4.7:**
 **Buscar información sobre métodos y herramientas para implementar GSLB.** 
