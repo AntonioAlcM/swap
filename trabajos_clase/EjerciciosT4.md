@@ -50,6 +50,7 @@ conclusión es mas factible una granja web que un mainframe.
 específicos. Compara las prestaciones que ofrecen unos y otros.**
 
 **La familia LoadMaster de balanceadores de carga de hardware **
+<<<<<<< HEAD
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/tablaLBEjercicio4.2.png)
 
 **La familia loadbalancer.org de balanceadores de carga de hardware **
@@ -57,6 +58,15 @@ específicos. Compara las prestaciones que ofrecen unos y otros.**
 
 **La familia F5 de balanceadores de carga de hardware **
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/tablaLBEjercicio4.2.2.png)
+=======
+![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/tablaLBEjercicio4.2.png)
+
+**La familia loadbalancer.org de balanceadores de carga de hardware **
+![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/tablaLBEjercicio4.2.1.png)
+
+**La familia F5 de balanceadores de carga de hardware **
+![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/tablaLBEjercicio4.2.2.png)
+>>>>>>> 4d570ca3d5bcea5b48427b622d3a1f43b00eea25
 
 #**Ejercicio T4.3:**
 **Buscar información sobre los métodos de balanceo que implementan los 
@@ -91,11 +101,19 @@ implementa
 
 Una vez instalado el ZenLoadBalancer entramos a la máquina desde el navegador 
 introduciendo https://ip:444, una vez en la página principal accedemos a manage 
+<<<<<<< HEAD
 y pinchamos en Farms, alli aparecerá un recuadro que pone Configure a new Farm ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio4.4.1.png)
 
 Una vez que le damos a save&continue aparecerá la siguiente página ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//Ejercicio4.4.2.png) introducimos la dirección virtual de 
 nuestro servidor y el puerto que queramos que use, le damos a save y aparecerá la d¡siguiente página ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//Ejercicio4.4.3.png),
 seleccionamos el botón edit de nuestra granja, y pasaremos a la siguiente página ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio4.4.4.png), en el apartado edit
+=======
+y pinchamos en Farms, alli aparecerá un recuadro que pone Configure a new Farm ![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/Ejercicio4.4.1.png)
+
+Una vez que le damos a save&continue aparecerá la siguiente página ![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/Ejercicio4.4.2.png) introducimos la dirección virtual de 
+nuestro servidor y el puerto que queramos que use, le damos a save y aparecerá la d¡siguiente página ![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/Ejercicio4.4.3.png),
+seleccionamos el botón edit de nuestra granja, y pasaremos a la siguiente página ![imagen](https://github.com/AntonioAlcM/swap/trabajos_clase/Ejercicio4.4.4.png), en el apartado edit
+>>>>>>> 4d570ca3d5bcea5b48427b622d3a1f43b00eea25
 real IP servers configurate añadimos las ips de nuestros servidores.
 
 Ya por último solo poner en marcha nuestro servidor.
