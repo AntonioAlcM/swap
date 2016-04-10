@@ -55,7 +55,7 @@ añadir las máquinas a nuestro balanceador.
  > Para arrancarlo basta con escribir **service lighttpd start o restart**, según 
 lo tengas en ejecución o no.
 
-##** Configuración del servidor Zenload Balancer **
+##**Configuración del servidor Zenload Balancer**
 
  > Una vez instalado el ZenLoadBalancer entramos a la máquina desde el 
 navegador 
