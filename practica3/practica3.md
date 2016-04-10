@@ -1,12 +1,12 @@
-#** Resolución practica 3 **
+#**Resolución practica 3**
 
  > Para poder comprobar que funciona el balanceador correctamente, en la 
 máquina 2 de nuestra granja web debemos deshabilitar la orden del crontab que 
 actualizaba la máquina 2 al estado de la máquina 1. Después en la carpeta 
-/var/www debemos modificar el archivo index.html y poner en cada uno de ellos 
+/var/www debemos modificar el archivo index.html y poner en cada uno de ellas, 
 soy la máquina 1 o soy la máquina 2, según corresponda
 
-##** Configuración del servidor nginx **
+##**Configuración del servidor nginx**
 
   > Instalamos nginx, una vez instalado debemos modificar el archivo 
 /etc/nginx/conf.d/default.conf.
@@ -23,7 +23,7 @@ funcione como balanceador.
  > Una vez instalado arrancamos el servicio con esta orden service nginx 
 restart (este si esta ya arrancado) o service nginx start
 
-##** Configuración del servidor haproxy **
+##**Configuración del servidor haproxy**
 
   > Instalamos haproxy, una vez instalado debemos modificar el archivo  
 /etc/haproxy/haproxy.cfg
@@ -35,7 +35,7 @@ añadiendo las máquinas de mi granja web
  > El resto es la configuración dada por el profesor, para poder iniciar el 
 servidor debes usar este comando, /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 
-##** Configuración del servidor lighttpd **
+##**Configuración del servidor lighttpd**
 
  > Instalamos lighttpd, una vez instalado debemos modificar el archivo  
 /etc/lighttpd/lighttpd.conf
@@ -76,7 +76,7 @@ servidores.
 
 Ya por último solo poner en marcha nuestro servidor.
 
-#** Consideraciones **
+#**Consideraciones**
 
  > Importante en caso de tener instalado Apache, hay que pararlo para eso usar 
 el comando service apache2 stop, en caso contrario nos dará error al intentar 
