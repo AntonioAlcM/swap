@@ -25,21 +25,36 @@ ML310e G8 XE E3-1220/8GB/2TB:
   
  > Especificaciones:
 
- > > +Procesador
-   > Velocidad de reloj* 3.1 GHz
-   > Modelo del procesador* Intel Xeon (4 núcleos, 3,1 GHz, 8 MB, 69 W)
-   > Número de núcleos de procesador* 4
-   > Número de procesadores instalados* 1
-   > L2 cache 8 MB
- > > +Medios de almacenaje
-   > Dos unidades de 1TB (2x1TB)
-   > Reguladores del almacenaje
-   > Controlador de disco duro (1) Dynamic Smart Array B120i / ZM;
- > > +Memoria
-   > Memoria interna* UDIMM de 8 GB
-   > Memoria interna máxima* 32 GB
-   > Tipo de memoria interna* 2R x8 PC3L-10600E-9
-   > Ranuras de memoria* 4 ranuras DIMM; Máximo
+ > > *Procesador
+ 
+   > > > Velocidad de reloj* 3.1 GHz
+   
+   > > > Modelo del procesador* Intel Xeon (4 núcleos, 3,1 GHz, 8 MB, 69 W)
+   
+   > > > Número de núcleos de procesador* 4
+   
+   > > > Número de procesadores instalados* 1
+   
+   > > > L2 cache 8 MB
+   
+   
+ > > *Medios de almacenaje
+ 
+   > > > Dos unidades de 1TB (2x1TB)
+   
+   > > >  Reguladores del almacenaje
+   
+   > > > Controlador de disco duro (1) Dynamic Smart Array B120i / ZM;
+   
+ > > *Memoria
+ 
+   > > > Memoria interna* UDIMM de 8 GB
+   
+   > > > Memoria interna máxima* 32 GB
+   
+   > > > Tipo de memoria interna* 2R x8 PC3L-10600E-9
+   
+   > > > Ranuras de memoria* 4 ranuras DIMM; Máximo
 
   > Solo para igualar la ram de 10TB necesitas 320 ordenadores, cada ordenador 
 cuesta 735 euros lo que nos da un total de 235.000 euros.
