@@ -1,0 +1,17 @@
+<pregunta>
+<enunciado>¿Cuál no es una funcionalidad de los balanceadores hardware?</enunciado>
+<opcionA>Algunos pueden balancear la carga de dispositivos como cortafuegos o concentradores</opcionA>
+<opcionB>Los balanceadores no tienen varios niveles de redundancia</opcionB>
+<opcionC>Podemos hacer configuraciones por parejas</opcionC>
+<opcionD>Monitorizan la disponibilidad y fallos en aplicaciones</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>Señale aquella o aquellas opciones que no supongan una ventaja del GSLB</enunciado>
+<opcionA>Alta disponibilidad</opcionA>
+<opcionB>Complejo de implementar y comprender</opcionB>
+<opcionC>Si la aplicación web usa BD, éstas deben estar sincronizadas entre los diversos sitios</opcionC>
+<opcionD>B y C son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>

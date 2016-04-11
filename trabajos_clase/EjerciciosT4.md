@@ -114,7 +114,7 @@ y pinchamos en Farms, allí aparecerá un recuadro que pone Configure a new Farm
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//Ejercicio4.4.2.png) 
 introducimos la dirección virtual de nuestro servidor y el puerto que queramos que use, le damos a save y aparecerá la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//Ejercicio4.4.3.png),
-seleccionamos el botón edit de nuestra granja, y pasaremos a la siguiente página 
+seleccionamos el botón edit de nuestra granja y pasaremos a la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio4.4.4.png)
 en el apartado edit real IP servers configurate añadimos las ips de nuestros servidores.
 
@@ -134,7 +134,7 @@ continentes.**
 #**Ejercicio T4.7:**
 **Buscar información sobre métodos y herramientas para implementar GSLB.** 
 
- > En la mayoría de los balanceadores hardware, el software tiene una opción para implementar GSLB. En esta enlace 
+ > En la mayoría de los balanceadores hardware, el software tiene una opción para implementar GSLB. En esta
  [enlace](http://www.clm.com.pe/productos/a10/ax-global-server-load-balancing.htm) podemos ver un ejemplo. Los balanceadores de LoadMaster también permite implementar el GSLB
  
  > La familia LoadMaster de balanceadores de carga virtual también permite implementar el GSLB, esta es una opción software
