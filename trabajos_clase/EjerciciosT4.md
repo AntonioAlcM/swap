@@ -61,7 +61,8 @@ cuesta 735 euros lo que nos da un total de 235.000 euros.
 Para igualar la capacidad de procesamiento necesitamos 67 ordenadores. En 
 conclusión es mas factible una granja web que un mainframe, es verdad que en 
 números piensas que un mainframe merece mas la pena, pero siempre es mas barato 
-un ordenador que un mainframe, ojo lo estamos comparando con el mainframe de mayor capacidad que ronda los 2 millones de dolares.
+un ordenador que un mainframe, ojo lo estamos comparando con el mainframe de 
+mayor capacidad que ronda los 2 millones de dolares.
   
 
 
@@ -154,6 +155,21 @@ Ya por último solo poner en marcha nuestro servidor.
 **Probar las diferentes maneras de redirección HTTP.**
 **¿Cuál es adecuada y cuál no lo es para hacer balanceo de carga global? ¿Por 
 qué?** 
+  
+ > En HTML el principal problema es que te redirecciona este o no el servidor 
+funcionando
+
+ > Java es el propio navegador el que te direcciona, problema no sabes si esta o 
+no la página
+
+ > PHP te redirecciona desde el servidor, en caso de que el servidor este caído 
+no realiza la petición, mientras que en lo otros hacen la petición este o no 
+caído el servidor. 
+
+  > Para mi php es la mejor opción por lo anteriormente comentado y también por 
+la potencia que tienen el propio lenguaje. Pero personalmente el código de 
+javascript me resulta mas intuitivo, también es debido a que javascript si lo he 
+estudiado y php no.
 
 #**Ejercicio T4.6:**
 **Buscar información sobre los bloques de IP para los distintos países o 
@@ -166,7 +182,9 @@ de ip según cada país del mundo.
 **Buscar información sobre métodos y herramientas para implementar GSLB.** 
 
  > En la mayoría de los balanceadores hardware, el software tiene una opción 
-para implementar GSLB. En este [enlace](http://www.clm.com.pe/productos/a10/ax-global-server-load-balancing.htm) 
+para implementar GSLB. En este 
+[enlace](http://www.clm.com.pe/productos/a10/ax-global-server-load-balancing.htm
+) 
 podemos ver un ejemplo. Los balanceadores de LoadMaster también permite 
 implementar el GSLB
  
@@ -175,7 +193,8 @@ implementar el GSLB, esta es una opción software
  
  > F5 también dispone de software y hardware, donde se puede implementar GSLB.
   
- > En cuanto métodos de balanceo están los vistos en clase de teoría, que son los siguientes:
+ > En cuanto métodos de balanceo están los vistos en clase de teoría, que son 
+los siguientes:
    1. Uso de DNS
    2. Redirección HTTP
    3. GSLB basado en DNS
