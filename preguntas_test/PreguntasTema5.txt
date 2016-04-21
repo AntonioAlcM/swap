@@ -1,0 +1,17 @@
+<pregunta>
+<enunciado>¿Cuál es un patron de tráfico ?</enunciado>
+<opcionA>HTTP</opcionA>
+<opcionB>FTP</opcionB>
+<opcionC>Tienda web</opcionC>
+<opcionD>Todas son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Cuál no es un paso para establecer una conexión HTTP?</enunciado>
+<opcionA>Inicio conexión TCP</opcionA>
+<opcionB>Reenvío de archivo</opcionB>
+<opcionC>Petición de archivo</opcionC>
+<opcionD>Archivo recibido</opcionD>
+<solucion>B</solucion>
+</pregunta>
