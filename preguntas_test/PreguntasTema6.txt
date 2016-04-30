@@ -1,0 +1,18 @@
+<pregunta>
+<enunciado>¿Cuál es la instrucción o instrucciones para bloquear todas las conexiones?</enunciado>
+<opcionA>iptables -P INPUT DROP</opcionA>
+<opcionB>iptables -P FORWARD DROP</opcionB>
+<opcionC>iptables -P OUTPUT DROP</opcionC>
+<opcionD>Todas son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Qué ataque no puede evitar el balanceador?</enunciado>
+<opcionA>TCP SYN</opcionA>
+<opcionB>Ping of death</opcionB>
+<opcionC>Todas son correctas</opcionC>
+<opcionD>IP spoofing</opcionD>
+<solucion>C</solucion>
+</pregunta>
+
