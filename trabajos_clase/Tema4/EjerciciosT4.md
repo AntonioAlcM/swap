@@ -1,201 +1,194 @@
 #**Ejercicio T4.1:**
-**Buscar información sobre cuánto costaría en la actualidad un mainframe. 
-Comparar precio y potencia entre esa máquina y una granja web de unas 
-prestaciones similares.** 
+**Buscar informaciï¿½n sobre cuï¿½nto costarï¿½a en la actualidad un mainframe.
+Comparar precio y potencia entre esa mï¿½quina y una granja web de unas
+prestaciones similares.**
 
-  > El único mainframe que he encontrado es uno de IBM el z13, el precio no 
-esta 
-claro en algunas páginas apuntan que dependiendo de las configuraciones puede 
-estar entre 75000 dolares y 2 millones de dolares. Las especificaciones que he 
+  > El ï¿½nico mainframe que he encontrado es uno de IBM el z13, el precio no
+esta
+claro en algunas pï¿½ginas apuntan que dependiendo de las configuraciones puede
+estar entre 75000 dolares y 2 millones de dolares. Las especificaciones que he
 encontrado son:
- 
+
   > > *la ram va desde 64GB hasta 10TB.
- 
-  > > *En cuanto al procesador lo poco que he encontrado indica que es de 5Ghz 
-y 
-tiene 8 núcleos de 22 nanómetros, esto lo que indica es que funciona como si 
+
+  > > *En cuanto al procesador lo poco que he encontrado indica que es de 5Ghz
+y
+tiene 8 nï¿½cleos de 22 nanï¿½metros, esto lo que indica es que funciona como si
 fuera 166 nucleos de 5GHZ.
- 
- > Este mainframe puede albergar hasta 141 unidades de procesamiento en un solo 
-sistema y ejecute hasta 8.000 servidores virtuales, según la compañía.
-  
-  > Voy a intentar hacer la comparación con este servidor ya preparado, el HP 
-ProLiant 
+
+ > Este mainframe puede albergar hasta 141 unidades de procesamiento en un solo
+sistema y ejecute hasta 8.000 servidores virtuales, segï¿½n la compaï¿½ï¿½a.
+
+  > Voy a intentar hacer la comparaciï¿½n con este servidor ya preparado, el HP
+ProLiant
 ML310e G8 XE E3-1220/8GB/2TB:
-  
+
  > Especificaciones:
 
  > > *Procesador
- 
-   > > > Velocidad de reloj* 3.1 GHz
-   
-   > > > Modelo del procesador* Intel Xeon (4 núcleos, 3,1 GHz, 8 MB, 69 W)
-   
-   > > > Número de núcleos de procesador* 4
-   
-   > > > Número de procesadores instalados* 1
-   
-   > > > L2 cache 8 MB
-   
-   
- > > *Medios de almacenaje
- 
-   > > > Dos unidades de 1TB (2x1TB)
-   
-   > > >  Reguladores del almacenaje
-   
-   > > > Controlador de disco duro (1) Dynamic Smart Array B120i / ZM;
-   
- > > *Memoria
- 
-   > > > Memoria interna* UDIMM de 8 GB
-   
-   > > > Memoria interna máxima* 32 GB
-   
-   > > > Tipo de memoria interna* 2R x8 PC3L-10600E-9
-   
-   > > > Ranuras de memoria* 4 ranuras DIMM; Máximo
 
-  > Solo para igualar la ram de 10TB necesitas 320 ordenadores, cada ordenador 
+   > > > Velocidad de reloj* 3.1 GHz
+
+   > > > Modelo del procesador* Intel Xeon (4 nï¿½cleos, 3,1 GHz, 8 MB, 69 W)
+
+   > > > Nï¿½mero de nï¿½cleos de procesador* 4
+
+   > > > Nï¿½mero de procesadores instalados* 1
+
+   > > > L2 cache 8 MB
+
+
+ > > *Medios de almacenaje
+
+   > > > Dos unidades de 1TB (2x1TB)
+
+   > > >  Reguladores del almacenaje
+
+   > > > Controlador de disco duro (1) Dynamic Smart Array B120i / ZM;
+
+ > > *Memoria
+
+   > > > Memoria interna* UDIMM de 8 GB
+
+   > > > Memoria interna mï¿½xima* 32 GB
+
+   > > > Tipo de memoria interna* 2R x8 PC3L-10600E-9
+
+   > > > Ranuras de memoria* 4 ranuras DIMM; Mï¿½ximo
+
+  > Solo para igualar la ram de 10TB necesitas 320 ordenadores, cada ordenador
 cuesta 735 euros lo que nos da un total de 235.000 euros.
-Para igualar la capacidad de procesamiento necesitamos 67 ordenadores. En 
-conclusión es mas factible una granja web que un mainframe, es verdad que en 
-números piensas que un mainframe merece mas la pena, pero siempre es mas barato 
-un ordenador que un mainframe, ojo lo estamos comparando con el mainframe de 
+Para igualar la capacidad de procesamiento necesitamos 67 ordenadores. En
+conclusiï¿½n es mas factible una granja web que un mainframe, es verdad que en
+nï¿½meros piensas que un mainframe merece mas la pena, pero siempre es mas barato
+un ordenador que un mainframe, ojo lo estamos comparando con el mainframe de
 mayor capacidad que ronda los 2 millones de dolares.
-  
+
 
 
 #**Ejercicio T4.2:**
-**Buscar información sobre precio y características de balanceadores hardware 
-específicos. Compara las prestaciones que ofrecen unos y otros.**
+**Buscar informaciï¿½n sobre precio y caracterï¿½sticas de balanceadores hardware
+especï¿½ficos. Compara las prestaciones que ofrecen unos y otros.**
 
  > **La familia LoadMaster de balanceadores de carga de hardware**
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/
-tablaLBEjercicio4.2.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/tablaLBEjercicio4.2.png)
 
  > **La familia loadbalancer.org de balanceadores de carga de hardware**
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/
-tablaLBEjercicio4.2.1.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/tablaLBEjercicio4.2.1.png)
 
  > **La familia F5 de balanceadores de carga de hardware**
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/
-tablaLBEjercicio4.2.2.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/tablaLBEjercicio4.2.2.png)
 
 #**Ejercicio T4.3:**
-**Buscar información sobre los métodos de balanceo que implementan los 
+**Buscar informaciï¿½n sobre los mï¿½todos de balanceo que implementan los
 dispositivos recogidos en el ejercicio 4.2**
 
  > Los balanceadores de LoadMaster implementan:
-  
+
   > > Round Robin
-  
+
   > > Weighted Round Robin
-  
+
   > > Least Connection
-  
+
   > > Weighted Least Connection
-  
+
   > > Agent-based Adaptive
-  
+
   > > Chained Failover (Fixed Weighting)
-  
+
   > > Source-IP Hash
-  
+
   > > Layer 7 Content Switching
-  
+
   > > Global Server Load Balancing (GSLB)
-  
+
   > > SDN Adaptive(Este solo se implementa en algunos balanceadores)
 
  > Los balanceadores de loadbalancer.org implementan:
-  
+
   > > Round Robin
-  
+
   > > Weighted Round Robin
-  
+
   > > Least Connection
-  
+
   > > Weighted Least Connection
-  
+
   > > Agent-based Adaptive (Windows and Linux Agents)
-  
+
   > > Layer 7 Content Switching
-  
+
   > > Destination Hash for transparent proxy
 
- > De los balanceadores F5 no he conseguido información sobre el algoritmo que 
+ > De los balanceadores F5 no he conseguido informaciï¿½n sobre el algoritmo que
 implementa
 
 #**Ejercicio T4.4:**
-**Instala y configura en una máquina virtual el balanceador ZenLoadBalancer.**
+**Instala y configura en una mï¿½quina virtual el balanceador ZenLoadBalancer.**
 
- > Una vez instalado el ZenLoadBalancer entramos a la máquina desde el 
-navegador 
-introduciendo https://ip:444, una vez en la página principal accedemos a manage 
-y pinchamos en Farms, allí aparecerá un recuadro que pone Configure a new Farm 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/
-Ejercicio4.4.1.png)
- > Una vez que le damos a save&continue aparecerá la siguiente página 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//
-Ejercicio4.4.2.png) 
-introducimos la dirección virtual de nuestro servidor y el puerto que queramos 
-que use, le damos a save y aparecerá la siguiente página 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase//
-Ejercicio4.4.3.png)
-seleccionamos el botón edit de nuestra granja y pasaremos a la siguiente página 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/
-Ejercicio4.4.4.png)
-en el apartado edit real IP servers configurate añadimos las ips de nuestros 
+ > Una vez instalado el ZenLoadBalancer entramos a la mï¿½quina desde el
+navegador
+introduciendo https://ip:444, una vez en la pï¿½gina principal accedemos a manage
+y pinchamos en Farms, allï¿½ aparecerï¿½ un recuadro que pone Configure a new Farm
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/Ejercicio4.4.1.png)
+ > Una vez que le damos a save&continue aparecerï¿½ la siguiente pï¿½gina
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/Ejercicio4.4.2.png)
+introducimos la direcciï¿½n virtual de nuestro servidor y el puerto que queramos
+que use, le damos a save y aparecerï¿½ la siguiente pï¿½gina
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/Ejercicio4.4.3.png)
+seleccionamos el botï¿½n edit de nuestra granja y pasaremos a la siguiente pï¿½gina
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema4/Ejercicio4.4.4.png)
+en el apartado edit real IP servers configurate aï¿½adimos las ips de nuestros
 servidores.
 
-Ya por último solo poner en marcha nuestro servidor.
+Ya por ï¿½ltimo solo poner en marcha nuestro servidor.
 
 #**Ejercicio T4.5:**
-**Probar las diferentes maneras de redirección HTTP.**
-**¿Cuál es adecuada y cuál no lo es para hacer balanceo de carga global? ¿Por 
-qué?** 
-  
- > En HTML el principal problema es que te redirecciona este o no el servidor 
+**Probar las diferentes maneras de redirecciï¿½n HTTP.**
+**ï¿½Cuï¿½l es adecuada y cuï¿½l no lo es para hacer balanceo de carga global? ï¿½Por
+quï¿½?**
+
+ > En HTML el principal problema es que te redirecciona este o no el servidor
 funcionando
 
- > Java es el propio navegador el que te direcciona, problema no sabes si esta o 
-no la página
+ > Java es el propio navegador el que te direcciona, problema no sabes si esta o
+no la pï¿½gina
 
- > PHP te redirecciona desde el servidor, en caso de que el servidor este caído 
-no realiza la petición, mientras que en lo otros hacen la petición este o no 
-caído el servidor. 
+ > PHP te redirecciona desde el servidor, en caso de que el servidor este caï¿½do
+no realiza la peticiï¿½n, mientras que en lo otros hacen la peticiï¿½n este o no
+caï¿½do el servidor.
 
-  > Para mi php es la mejor opción por lo anteriormente comentado y también por 
-la potencia que tienen el propio lenguaje. Pero personalmente el código de 
-javascript me resulta mas intuitivo, también es debido a que javascript si lo he 
+  > Para mi php es la mejor opciï¿½n por lo anteriormente comentado y tambiï¿½n por
+la potencia que tienen el propio lenguaje. Pero personalmente el cï¿½digo de
+javascript me resulta mas intuitivo, tambiï¿½n es debido a que javascript si lo he
 estudiado y php no.
 
 #**Ejercicio T4.6:**
-**Buscar información sobre los bloques de IP para los distintos países o 
+**Buscar informaciï¿½n sobre los bloques de IP para los distintos paï¿½ses o
 continentes.**
 
- > En este [enlace](http://www.nirsoft.net/countryip/) podemos ver los bloques 
-de ip según cada país del mundo.  
+ > En este [enlace](http://www.nirsoft.net/countryip/) podemos ver los bloques
+de ip segï¿½n cada paï¿½s del mundo.  
 
 #**Ejercicio T4.7:**
-**Buscar información sobre métodos y herramientas para implementar GSLB.** 
+**Buscar informaciï¿½n sobre mï¿½todos y herramientas para implementar GSLB.**
 
- > En la mayoría de los balanceadores hardware, el software tiene una opción 
-para implementar GSLB. En este 
+ > En la mayorï¿½a de los balanceadores hardware, el software tiene una opciï¿½n
+para implementar GSLB. En este
 [enlace](http://www.clm.com.pe/productos/a10/ax-global-server-load-balancing.htm
-) 
-podemos ver un ejemplo. Los balanceadores de LoadMaster también permite 
+)
+podemos ver un ejemplo. Los balanceadores de LoadMaster tambiï¿½n permite
 implementar el GSLB
- 
- > La familia LoadMaster de balanceadores de carga virtual también permite 
-implementar el GSLB, esta es una opción software
- 
- > F5 también dispone de software y hardware, donde se puede implementar GSLB.
-  
- > En cuanto métodos de balanceo están los vistos en clase de teoría, que son 
+
+ > La familia LoadMaster de balanceadores de carga virtual tambiï¿½n permite
+implementar el GSLB, esta es una opciï¿½n software
+
+ > F5 tambiï¿½n dispone de software y hardware, donde se puede implementar GSLB.
+
+ > En cuanto mï¿½todos de balanceo estï¿½n los vistos en clase de teorï¿½a, que son
 los siguientes:
    1. Uso de DNS
-   2. Redirección HTTP
+   2. Redirecciï¿½n HTTP
    3. GSLB basado en DNS
    4. GSLB usando protocolos de enrutamiento

@@ -5,7 +5,7 @@ Para bloquear todo el tráfico tanto de entrada como de salida de bemos introduc
 2. iptables -P OUTPUT DROP
 3. iptables -P FORWARD DROP
 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio6.1.1.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema6/Ejercicio6.1.1.png)
 
 La parte marcada en rojo corresponde a la máquina servidora donde he configurado el iptables. La parte de arriba es otra máquina desde donde hago un ping antes de configurar el iptables y debajo otro ping ya con el iptables configurado
 
@@ -16,14 +16,14 @@ Para aceptar todo el tráfico tanto de entrada como de salida de bemos introduci
 2. iptables -P OUTPUT ACCEPT
 3. iptables -P FORWARD ACCEPT
 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio6.1.2.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema6/Ejercicio6.1.2.png)
 
 La parte marcada en rojo corresponde a la máquina servidora donde he configurado el iptables. La parte de arriba es otra máquina desde donde hago un ping antes de configurar el iptables y debajo otro ping ya con el iptables configurado
 
 # T6.2 Comprobar qué puertos tienen abiertos nuestras máquinas, su estado, y qué programa o demonio lo ocupa.
  Yo para ello voy a usar el comando netstat -ap, el -a sirve para ver todos los puertos y con el -p podemos ver el pid de los programas que están usando los distintos puertos.
 
- ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Ejercicio6.2.png)
+ ![imagen](https://github.com/AntonioAlcM/swap/blob/master/trabajos_clase/Tema6/Ejercicio6.2.png)
 
 # T6.3 Buscar información acerca de los tipos de ataques más comunes en servidores web, en qué consisten, y cómo se pueden evitar.
 
