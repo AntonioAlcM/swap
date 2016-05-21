@@ -1,0 +1,18 @@
+<pregunta>
+<enunciado>Factores a tener en cuenta al diseñar la arquitectura de BD</enunciado>
+<opcionA>El número de sesiones</opcionA>
+<opcionB>El tipo de acceso</opcionB>
+<opcionC>El tamaño de la base de datos</opcionC>
+<opcionD>Todas son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Cuál no es un nivel RAID?</enunciado>
+<opcionA>RAID 0</opcionA>
+<opcionB>RAID 2/opcionB>
+<opcionC>RAID 1</opcionC>
+<opcionD>RAID 5/opcionD>
+<solucion>B</solucion>
+</pregunta>
+
