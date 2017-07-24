@@ -61,15 +61,15 @@ lo tengas en ejecución o no.
 navegador 
 introduciendo https://ip:444, una vez en la página principal accedemos a manage 
 y pinchamos en Farms, allí aparecerá un recuadro que pone Configure a new Farm 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.
-4 . 1.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.4
+.1.png)
  > Una vez que le damos a save&continue aparecerá la siguiente página 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.
-4.2.png) 
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.4
+.2.png) 
 introducimos la dirección virtual de nuestro servidor y el puerto que queramos 
 que use, le damos a save y aparecerá la siguiente página 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.
-4.3.png),
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.4
+.3.png),
 seleccionamos el botón edit de nuestra granja y pasaremos a la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.4
 .4.png)
