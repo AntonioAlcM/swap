@@ -25,20 +25,24 @@ restart** (este si esta ya arrancado) o **service nginx start**
 
 ##**Configuración del servidor haproxy**
 
-  > Instalamos haproxy, una vez instalado debemos modificar el archivo /etc/haproxy/haproxy.cfg
+  > Instalamos haproxy, una vez instalado debemos modificar el archivo 
+/etc/haproxy/haproxy.cfg
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/haproxy.png)
 
  > Como vemos en la imagen, en la parte de backend servers es donde yo voy a ir 
 añadiendo las máquinas de mi granja web
 
  > El resto es la configuración dada por el profesor, para poder iniciar el 
-servidor debes usar este comando, **/usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg**
+servidor debes usar este comando, **/usr/sbin/haproxy -f 
+/etc/haproxy/haproxy.cfg**
 
 ##**Configuración del servidor lighttpd**
 
- > Instalamos lighttpd, una vez instalado debemos modificar el archivo /etc/lighttpd/lighttpd.conf
+ > Instalamos lighttpd, una vez instalado debemos modificar el archivo 
+/etc/lighttpd/lighttpd.conf
  
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/lighttpd.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/lighttpd.png
+)
  
  > Voy a describir las distintas partes de que se compone el archivo:
  
@@ -47,12 +51,14 @@ el servidor
  > > 2. La parte intermedia  viene por defecto, importante comentar 
 server.username, server.groupname y server.port, esto atributos son para 
 configurar el servidor.
- > > 3. La parte mas importante es $SERVER["socket"] == ":80", esto quiere decir 
+ > > 3. La parte mas importante es $SERVER["socket"] == ":80", esto quiere 
+decir 
 que se va a crear un servidor que va a usar el puerto 80, el proxy.balance 
 sirve para establecer el algoritmo de balanceo, el proxy.server sirve para 
 añadir las máquinas a nuestro balanceador.
 
- > Para arrancarlo basta con escribir **service lighttpd start o restart**, según 
+ > Para arrancarlo basta con escribir **service lighttpd start o restart**, 
+según 
 lo tengas en ejecución o no.
 
 ##**Configuración del servidor Zenload Balancer**
@@ -61,8 +67,8 @@ lo tengas en ejecución o no.
 navegador 
 introduciendo https://ip:444, una vez en la página principal accedemos a manage 
 y pinchamos en Farms, allí aparecerá un recuadro que pone Configure a new Farm 
-![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.4
-.1.png)
+![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.
+4.1.png)
  > Una vez que le damos a save&continue aparecerá la siguiente página 
 ![imagen](https://github.com/AntonioAlcM/swap/blob/master/practica3/Ejercicio4.4
 .2.png) 
